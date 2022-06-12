@@ -1,0 +1,44 @@
+{
+  "name": "react-infinitely",
+  "version": "0.0.0",
+  "description": "A react infinite scroll library made with intersection observer",
+  "source": "src/index.tsx",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "test": "jest",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiffGreen/react-infinitely.git"
+  },
+  "keywords": [
+    "intersection-observer",
+    "infinite",
+    "scroll",
+    "react",
+    "component",
+    "library"
+  ],
+  "author": "Spiff Jekey-Green",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpiffGreen/react-infinitely/issues"
+  },
+  "homepage": "https://github.com/SpiffGreen/react-infinitely#readme",
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.6.0",
+    "@parcel/transformer-typescript-types": "^2.6.0",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "parcel": "^2.6.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}
